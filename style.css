@@ -1,61 +1,122 @@
-
-header, section, footer{
-    margin: 0;
-    padding: 20px;
-    border: 1px solid black;
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
-.wrap{
-    display: inline-block;
-    background-color: #1F2937;
+body{
+    font-family: 'sans-serif';
+    font-size: 16px;
+    line-height: 1.5;
     color: white;
+    background-color: #1F2937;
 }
 
-#img1{
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    float: right
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
 }
 
-.wrap button{
-    height: 25px;
-    width: 75px;
+.navBar{
+    height: 60px;
+}
+
+ul{
+    list-style: none;
 }
 
 
-.site-header{
+.navBar a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.navBar .logo{
+    font-size: large;
+    font-weight: bold;
+}
+
+.navBar .container{
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
-    color: #fff;
+    height: 100%;
     align-items: center;
 }
 
- .logo{
-    margin-top: -10px;
-}
-.navs ul{
-    list-style: none;
+.navBar .nav{
     display: flex;
-    border: solid 1px white;
-    
 }
 
-.navs li{
-    margin: 20px;
-    height: auto;
-    width: auto;
+.navBar ul li{
+    margin-left: 19px;
 }
 
-
-.navs ul{
-
-}
-.logo a{
-    text-decoration: none;
-    color: white;
+.navBar a:hover{
+    color: lightgray;
 }
 
 
+.header img{
+    height: 35%;
+    width: 35%;
+    padding: 20px;
+}
 
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1{
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.header p{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.header button{
+    padding: 5px 10px 5px 10px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.section1{
+    background-color: white;
+    color: black;
+    height: 400px;
+    width: 100%;
+}
+
+.section1 h1{
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+.section1 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 .boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 .box{
+    margin-left: 10px;
+    height: 100px;
+    width: 20%;
+    border: solid 5px #3882f6;
+    border-radius: 25px;
+}
+
+
+.section1 .box p{
+    padding-top: 100px;
+}
