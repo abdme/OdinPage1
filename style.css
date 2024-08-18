@@ -141,7 +141,7 @@ ul{
     font-weight: 200;
 }
 
-.pageFooter{
+.section3{
     height: 200px;
     background-color: white;
     color: white;
@@ -150,7 +150,7 @@ ul{
     align-items: center;
 }
 
-.pageFooter .container{
+.section3 .container{
     background-color: #3882f6;
     display: flex;
     justify-content: space-between;
@@ -160,9 +160,16 @@ ul{
     border-radius: 10px;
 }
 
-.pageFooter button{
+.section3 button{
     background-color: #3882f6;
     padding: 7px;
     border-radius: 10px;
     color: white;
+}
+
+.pageFooter{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
