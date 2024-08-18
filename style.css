@@ -110,7 +110,7 @@ ul{
 
 .section1 .box{
     margin-left: 10px;
-    height: 100px;
+    height: 150px;
     width: 20%;
     border: solid 5px #3882f6;
     border-radius: 25px;
@@ -118,5 +118,51 @@ ul{
 
 
 .section1 .box p{
-    padding-top: 100px;
+    padding-top: 160px;
+}
+
+.section2{
+    color: #1F2937;
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 span{
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+}
+
+.section2 h3{
+    font-size: large;
+    font-weight: 200;
+}
+
+.pageFooter{
+    height: 200px;
+    background-color: white;
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+.pageFooter .container{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.pageFooter button{
+    background-color: #3882f6;
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
 }
